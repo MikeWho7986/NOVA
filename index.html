@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nova - personal assistant</title>
+<style>
+  :root { --bg:#0d0820; --card:#160f2b; --text:#ecdfff; --muted:#b9a9d9; --a:#3f7bff; --b:#e03df0; }
+  * { box-sizing:border-box; }
+  body { margin:0; min-height:100vh; background:radial-gradient(circle at 30% 20%, #1d1145, var(--bg) 60%);
+         color:var(--text); font:17px/1.6 "Segoe UI", system-ui, sans-serif; display:flex; align-items:center; justify-content:center; padding:24px 16px; }
+  main { max-width:640px; width:100%; background:var(--card); border-radius:20px; padding:36px 28px; box-shadow:0 20px 60px rgba(0,0,0,.45); }
+  h1 { margin:0 0 4px; font-size:40px; background:linear-gradient(90deg,var(--a),var(--b)); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .sub { color:var(--muted); margin:0 0 24px; }
+  ul { padding-left:20px; } li { margin:6px 0; }
+  a { color:#9fb8ff; }
+  footer { margin-top:28px; font-size:14px; color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Nova</h1>
+  <p class="sub">Neural Overseer &amp; Virtual Assistant - a personal assistant for one person.</p>
+  <p>Nova is a private assistant that runs on its owner's own computer. It is not a public service: no one else can sign up or use it.</p>
+  <p>With the owner's permission, Nova has <strong>read-only</strong> access to the owner's Google account so it can:</p>
+  <ul>
+    <li>read the owner's recent email to prepare a morning briefing and answer the owner's questions,</li>
+    <li>read the owner's Google Calendar and Google Tasks to say what's coming up.</li>
+  </ul>
+  <p>Nova cannot send, change or delete anything in the Google account. Everything it reads stays on the owner's computer.</p>
+  <footer><a href="privacy.html">Privacy policy</a></footer>
+</main>
+</body>
+</html>
